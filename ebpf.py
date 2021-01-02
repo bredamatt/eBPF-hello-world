@@ -38,5 +38,6 @@ while True:
         for k,v in b["clones"].items():
             s += "ID {}: {}\t".format(k.value, v.value)
             print(s)
+            print("hello")
     else:
         print("No entries yet")
